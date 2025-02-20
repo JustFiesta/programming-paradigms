@@ -27,7 +27,7 @@ class Num a where
   ...
   () :: a -> a -> a
   ...
-        -- Defined in `GHC.Num'
+        -- Defined in 'GHC.Num'
 infixl 7
 
 ghci> :info (/)
@@ -35,7 +35,7 @@ type Fractional :: * -> Constraint
 class Num a => Fractional a where
   (/) :: a -> a -> a
   ...
-        -- Defined in GHC.Real'
+        -- Defined in 'GHC.Real'
 infixl 7 /
 
 ghci> :info (^)
@@ -46,16 +46,16 @@ infixr 8 ^
 
 -- 2.2
 {-
-ghci> 113 rem 2
+ghci> 113 'rem' 2
 1
-ghci> 113 rem 3
+ghci> 113 'rem' 3
 2
 
 113 jest liczba pierwsza
 -}
 
 
--- 2.3
+-- 2.3.3
 {-
 ghci> let cuboidVolume l w h = lwh
 ghci> cuboidVolume 3 4 5
