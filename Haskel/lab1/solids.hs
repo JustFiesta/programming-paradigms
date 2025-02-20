@@ -22,3 +22,6 @@ ghci> :l solids
 [1 of 2] Compiling Main             ( solids.hs, interpreted )
 Ok, one module loaded.
 -}
+
+pyramidVolume :: Floating a => a -> a -> a -> a  -- obj ostroslupa
+pyramidVolume base sideHeight = (1/3) * base * base * sideHeight

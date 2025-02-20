@@ -23,9 +23,11 @@ Find description of rem and gcd functions in Haskell documentation.
 
 https://downloads.haskell.org/~ghc/7.10.3/docs/html
 
-What is the name of the standard module in Haskell?
+What is the name of the standard module in Haskell? Prelude
 
 How many arguments do the functions rem and gcd take?
+rem - 2
+gcd - 2
 -}
 
 {- Task 4 *

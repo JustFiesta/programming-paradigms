@@ -11,3 +11,4 @@ main =
      let result = silnia (read k)
      putStrLn (show result)
      
+     
