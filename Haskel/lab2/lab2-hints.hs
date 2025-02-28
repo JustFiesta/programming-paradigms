@@ -31,7 +31,7 @@ Check the associativity and the strength of binding for + and - operators.
 class Num a where
   (+) :: a -> a -> a
   ...
-        -- Defined in ï¿½GHC.Numï¿½
+        -- Defined in ‘GHC.Num’
 infixl 6 +
 *Main> :i -
 class Num a where
@@ -174,3 +174,7 @@ False
 -}
 
 -- the rest for homework
+
+-- 2.7 *
+
+-- homework
