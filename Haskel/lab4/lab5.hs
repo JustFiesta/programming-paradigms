@@ -152,7 +152,3 @@ string2int3 x = read x
 ghci> string2int "11325"
 11325
 -}
-
-
--- 4.7
-
